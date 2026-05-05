@@ -30,6 +30,11 @@ public class UserController {
         }
 
     }
+        @PostMapping("/register")
+    public ResponseEntity<AuthResponseDTO> register(@Valid @RequestBody RegisterRequestDTO request) {
+        AuthResponseDTO response = userService.register(request);
+        return ResponseEntity.status(HttpStatus.CREATED).body(response);
+    }
 
     @PostMapping("/login")
     public ResponseEntity<User> loginUser(@RequestParam String email,@RequestParam String passWord){
