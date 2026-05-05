@@ -1,9 +1,5 @@
 # Expense Tracker API
 
-> API REST sécurisée pour gestion des dépenses personnelles — construite avec **Spring Boot 3.5.9**, **JWT** et **MySQL**.
-
----
-
 ## Fonctionnalités
 
 - Inscription et connexion sécurisées avec **BCrypt**
@@ -28,7 +24,7 @@
 
 
 
-## 🚀 Installation
+## Installation
 
 ### Prérequis
 
@@ -90,7 +86,7 @@ GET  :/api/v1/user?userId={id} (Récupérer un utilisateur par ID)
 
 
 
-## 📖 Documentation Swagger: http://localhost:8080/swagger-ui.html
+## Documentation Swagger: http://localhost:8080/swagger-ui.html
 
 ##  MESSAGE : "D'autres fonctionnalites bientot"
 
